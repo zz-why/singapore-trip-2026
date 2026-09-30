@@ -1,341 +1,44 @@
 <!DOCTYPE html>
 <html lang="zh-CN">
 <head>
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
-  <title>2026 新加坡家庭旅行 · 测试页</title>
-  <style>
-    * { box-sizing: border-box; }
-
-    body {
-      margin: 0;
-      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "PingFang SC",
-                   "Microsoft YaHei", Arial, sans-serif;
-      background: #f6f7fb;
-      color: #1f2937;
-    }
-
-    .topbar {
-      background: #ffffff;
-      border-bottom: 1px solid #e5e7eb;
-      position: sticky;
-      top: 0;
-      z-index: 10;
-    }
-
-    .topbar-inner {
-      max-width: 1100px;
-      margin: 0 auto;
-      padding: 14px 18px;
-    }
-
-    .title {
-      margin: 0;
-      font-size: 20px;
-      font-weight: 800;
-    }
-
-    .subtitle {
-      margin-top: 5px;
-      font-size: 13px;
-      color: #6b7280;
-      line-height: 1.5;
-    }
-
-    .container {
-      max-width: 1100px;
-      margin: 0 auto;
-      padding: 22px 18px 48px;
-    }
-
-    .summary {
-      display: grid;
-      grid-template-columns: repeat(3, 1fr);
-      gap: 10px;
-      margin-bottom: 18px;
-    }
-
-    .summary-card {
-      background: #ffffff;
-      border: 1px solid #e5e7eb;
-      border-radius: 12px;
-      padding: 14px;
-    }
-
-    .summary-card .label {
-      font-size: 11px;
-      color: #9ca3af;
-      margin-bottom: 5px;
-    }
-
-    .summary-card .value {
-      font-size: 15px;
-      font-weight: 700;
-    }
-
-    .section-title {
-      font-size: 18px;
-      margin: 22px 0 10px;
-    }
-
-    .section-desc {
-      font-size: 13px;
-      color: #6b7280;
-      margin-bottom: 14px;
-      line-height: 1.6;
-    }
-
-    .table-wrap {
-      overflow-x: auto;
-      background: #ffffff;
-      border-radius: 12px;
-      border: 1px solid #e5e7eb;
-      box-shadow: 0 2px 10px rgba(0,0,0,.03);
-    }
-
-    table {
-      width: 100%;
-      border-collapse: collapse;
-      min-width: 780px;
-      font-size: 13px;
-    }
-
-    th, td {
-      padding: 12px 14px;
-      text-align: left;
-      border-bottom: 1px solid #eef0f3;
-      vertical-align: top;
-      line-height: 1.55;
-    }
-
-    th {
-      background: #f8fafc;
-      font-size: 12px;
-      color: #374151;
-      white-space: nowrap;
-    }
-
-    tr:last-child td {
-      border-bottom: none;
-    }
-
-    .spot-name {
-      font-weight: 700;
-      color: #111827;
-    }
-
-    .en {
-      display: block;
-      margin-top: 2px;
-      color: #9ca3af;
-      font-size: 11px;
-      font-weight: 400;
-    }
-
-    .tag {
-      display: inline-block;
-      padding: 3px 8px;
-      border-radius: 999px;
-      font-size: 11px;
-      font-weight: 700;
-      background: #e0f2fe;
-      color: #0369a1;
-      white-space: nowrap;
-    }
-
-    .tag.green {
-      background: #dcfce7;
-      color: #166534;
-    }
-
-    .tag.orange {
-      background: #ffedd5;
-      color: #9a3412;
-    }
-
-    .tag.purple {
-      background: #f3e8ff;
-      color: #7e22ce;
-    }
-
-    .tag.gray {
-      background: #f3f4f6;
-      color: #4b5563;
-    }
-
-    .note {
-      margin-top: 18px;
-      padding: 13px 15px;
-      border-radius: 10px;
-      background: #fff7ed;
-      border: 1px solid #fed7aa;
-      color: #9a3412;
-      font-size: 12.5px;
-      line-height: 1.7;
-    }
-
-    .updated {
-      margin-top: 20px;
-      text-align: right;
-      color: #9ca3af;
-      font-size: 11px;
-    }
-
-    @media (max-width: 700px) {
-      .topbar-inner {
-        padding: 12px 14px;
-      }
-
-      .title {
-        font-size: 17px;
-      }
-
-      .container {
-        padding: 16px 12px 36px;
-      }
-
-      .summary {
-        grid-template-columns: 1fr;
-        gap: 8px;
-      }
-
-      .summary-card {
-        padding: 11px 12px;
-      }
-
-      .section-title {
-        font-size: 16px;
-      }
-
-      th, td {
-        padding: 10px 11px;
-      }
-    }
-  </style>
-</head>
-
-<body>
-  <header class="topbar">
-    <div class="topbar-inner">
-      <h1 class="title">🇸🇬 2026 新加坡家庭旅行</h1>
-      <div class="subtitle">Singapore Family Trip · 10月2日–10月9日 · 4位成人 + 1位幼儿</div>
-    </div>
-  </header>
-
-  <main class="container">
-    <section class="summary">
-      <div class="summary-card">
-        <div class="label">旅行时间</div>
-        <div class="value">2026.10.02 – 10.09</div>
-      </div>
-      <div class="summary-card">
-        <div class="label">旅行成员</div>
-        <div class="value">4 位成人 + 1 位幼儿</div>
-      </div>
-      <div class="summary-card">
-        <div class="label">旅行节奏</div>
-        <div class="value">亲子 · 轻松 · 自然体验</div>
-      </div>
-    </section>
-
-    <h2 class="section-title">📍 景点候选表</h2>
-    <div class="section-desc">
-      当前为页面结构测试版。后续可增加地图定位、每日安排、开放时间、票价、交通、雨天备选和家庭注意事项。
-    </div>
-
-    <div class="table-wrap">
-      <table>
-        <thead>
-          <tr>
-            <th>景点</th>
-            <th>类型</th>
-            <th>适合家庭</th>
-            <th>建议时长</th>
-            <th>区域</th>
-            <th>备注</th>
-          </tr>
-        </thead>
-        <tbody>
-          <tr>
-            <td>
-              <span class="spot-name">新加坡动物园</span>
-              <span class="en">Singapore Zoo</span>
-            </td>
-            <td><span class="tag green">动物</span></td>
-            <td>★★★★★</td>
-            <td>半天–1天</td>
-            <td>Mandai</td>
-            <td>适合亲子慢慢逛，建议安排较宽松。</td>
-          </tr>
-
-          <tr>
-            <td>
-              <span class="spot-name">滨海湾花园</span>
-              <span class="en">Gardens by the Bay</span>
-            </td>
-            <td><span class="tag green">自然</span></td>
-            <td>★★★★★</td>
-            <td>3–5小时</td>
-            <td>Marina Bay</td>
-            <td>户外与室内温室可以组合，适合避开最热时段。</td>
-          </tr>
-
-          <tr>
-            <td>
-              <span class="spot-name">新加坡植物园</span>
-              <span class="en">Singapore Botanic Gardens</span>
-            </td>
-            <td><span class="tag green">公园</span></td>
-            <td>★★★★★</td>
-            <td>2–4小时</td>
-            <td>Tanglin</td>
-            <td>节奏轻松，适合老人和幼儿散步、休息。</td>
-          </tr>
-
-          <tr>
-            <td>
-              <span class="spot-name">滨海湾金沙 / 鱼尾狮</span>
-              <span class="en">Marina Bay & Merlion</span>
-            </td>
-            <td><span class="tag orange">城市</span></td>
-            <td>★★★★☆</td>
-            <td>2–3小时</td>
-            <td>Marina Bay</td>
-            <td>适合傍晚前往，顺带看夜景。</td>
-          </tr>
-
-          <tr>
-            <td>
-              <span class="spot-name">圣淘沙</span>
-              <span class="en">Sentosa</span>
-            </td>
-            <td><span class="tag purple">娱乐</span></td>
-            <td>★★★★☆</td>
-            <td>半天–1天</td>
-            <td>Sentosa</td>
-            <td>可根据孩子状态选择水族馆、海滩或其他项目。</td>
-          </tr>
-
-          <tr>
-            <td>
-              <span class="spot-name">星耀樟宜</span>
-              <span class="en">Jewel Changi Airport</span>
-            </td>
-            <td><span class="tag gray">机场</span></td>
-            <td>★★★★☆</td>
-            <td>1–3小时</td>
-            <td>Changi</td>
-            <td>适合抵达日或返程日安排，不额外占用市区时间。</td>
-          </tr>
-        </tbody>
-      </table>
-    </div>
-
-    <div class="note">
-      💡 测试重点：请在手机微信中打开后，看看标题字号、表格横向滑动、文字大小和整体阅读体验是否舒服。
-    </div>
-
-    <div class="updated">测试版 · 2026-09-29</div>
-  </main>
-</body>
-</html>
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<title>新加坡家庭旅行攻略 · 2026 国庆</title>
+<link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" />
+<script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
+<style>
+*{box-sizing:border-box}html{scroll-behavior:smooth}body{margin:0;font-family:-apple-system,BlinkMacSystemFont,"PingFang SC","Microsoft YaHei",sans-serif;background:#f6f7fb;color:#1f2330;line-height:1.55}
+a{color:inherit}.topbar{position:sticky;top:0;z-index:3000;height:54px;background:rgba(255,255,255,.94);backdrop-filter:blur(12px);border-bottom:1px solid #e9ecf3;display:flex;align-items:center;padding:0 18px;gap:18px}.brand{font-weight:800;white-space:nowrap}.brand span{color:#2b6cff}.nav{display:flex;gap:4px;overflow:auto}.nav a{text-decoration:none;font-size:12.5px;color:#61687a;padding:7px 9px;border-radius:8px;white-space:nowrap}.nav a:hover{background:#eef3ff;color:#2b6cff}.hero{max-width:1280px;margin:0 auto;padding:34px 18px 24px}.hero h1{font-size:34px;line-height:1.15;margin:0 0 10px}.hero p{margin:6px 0;color:#667085}.chips{display:flex;flex-wrap:wrap;gap:8px;margin-top:16px}.chip{background:#fff;border:1px solid #e5e8ef;border-radius:999px;padding:6px 11px;font-size:12px}.chip b{color:#2b6cff}.notice{margin-top:16px;background:#fff8e6;border:1px solid #f6df9c;border-radius:12px;padding:12px 14px;font-size:13px;color:#7a5a00}
+.section{max-width:1280px;margin:0 auto;padding:30px 18px}.section h2{font-size:23px;margin:0 0 6px}.sub{font-size:13px;color:#7b8190;margin-bottom:18px}.card{background:#fff;border:1px solid #edf0f5;border-radius:14px;box-shadow:0 3px 18px rgba(20,30,60,.05)}
+#map-wrap{position:relative;height:72vh;min-height:560px;max-height:850px;background:#ddd}#map{height:100%;width:100%}#panel{position:absolute;z-index:1000;right:14px;top:14px;bottom:14px;width:360px;max-width:calc(100% - 28px);background:#fff;border-radius:14px;box-shadow:0 10px 34px rgba(20,30,60,.18);display:flex;flex-direction:column;overflow:hidden}.panel-head{padding:14px;border-bottom:1px solid #eef0f5}.panel-head h3{margin:0 0 8px;font-size:16px}.filters{display:flex;flex-wrap:wrap;gap:6px}.filter{border:1px solid #e5e8ef;background:#f7f8fb;border-radius:999px;padding:5px 9px;font-size:11px;cursor:pointer}.filter.active{background:#2b6cff;color:#fff;border-color:#2b6cff}#search{width:100%;margin-top:9px;border:1px solid #dfe3eb;border-radius:8px;padding:8px 10px;font-size:12px}#list{overflow:auto;flex:1}.poi{padding:11px 13px;border-bottom:1px solid #f0f2f5;cursor:pointer}.poi:hover{background:#f8faff}.poi-top{display:flex;align-items:center;gap:8px}.dot{width:9px;height:9px;border-radius:50%;flex:0 0 auto}.poi-name{font-weight:700;font-size:13px}.poi-en{font-size:10.5px;color:#8a90a0}.poi-meta{font-size:10.5px;color:#737b8d;margin-top:4px}.pill{display:inline-block;border-radius:999px;padding:2px 7px;font-size:10px;font-weight:700;margin-right:4px}.p-blue{background:#eaf0ff;color:#2b6cff}.p-amber{background:#fff3dc;color:#b36b00}.p-purple{background:#f0eaff;color:#7748d8}.p-gray{background:#f0f2f5;color:#687081}.p-red{background:#fee9e9;color:#c73535}
+.tabs{display:flex;gap:6px;overflow:auto;border-bottom:1px solid #e5e8ef;margin-bottom:16px}.tab{padding:9px 13px;font-size:13px;font-weight:700;color:#6d7485;white-space:nowrap;cursor:pointer;border-bottom:2px solid transparent}.tab.active{color:#2b6cff;border-bottom-color:#2b6cff}.day{display:none}.day.active{display:block}.day-head{display:flex;justify-content:space-between;align-items:flex-start;gap:10px;margin-bottom:12px}.day-title{font-size:18px;font-weight:800}.day-meta{font-size:11px;color:#7b8190}.intensity{font-size:12px;color:#f59e0b;white-space:nowrap}table{width:100%;border-collapse:collapse;background:#fff}th,td{padding:10px 11px;border-bottom:1px solid #edf0f5;text-align:left;vertical-align:top;font-size:12px}th{background:#f8faff;font-size:11px;color:#545c6e;white-space:nowrap}.table-wrap{overflow:auto;border:1px solid #edf0f5;border-radius:12px;background:#fff}.tag{display:inline-block;padding:3px 7px;border-radius:6px;background:#f1f4fa;font-size:10.5px;margin:2px 3px 2px 0}.grid2{display:grid;grid-template-columns:1fr 1fr;gap:14px}.grid3{display:grid;grid-template-columns:repeat(3,1fr);gap:14px}.mini{padding:14px}.mini h3{margin:0 0 6px;font-size:15px}.mini p{margin:4px 0;font-size:12px;color:#687081}.checklist{display:grid;grid-template-columns:repeat(2,1fr);gap:8px 16px}.check{background:#fff;border:1px solid #edf0f5;border-radius:9px;padding:9px 11px;font-size:12px}.foot{max-width:1280px;margin:0 auto;padding:18px;color:#8a90a0;font-size:11px;text-align:center}
+.status-legend{display:flex;gap:10px;flex-wrap:wrap;margin:8px 0 14px;font-size:11px;color:#6c7485}.status-legend span{display:flex;align-items:center;gap:5px}.popup h4{margin:0 0 4px;font-size:14px}.popup .line{font-size:11px;color:#60697b;margin:3px 0}.popup .reason{font-size:11px;margin-top:6px;padding-top:6px;border-top:1px solid #eee}
+@media(max-width:760px){.topbar{height:auto;min-height:48px;padding:8px 10px;align-items:flex-start;flex-direction:column;gap:4px}.brand{font-size:14px}.nav{width:100%}.hero{padding-top:22px}.hero h1{font-size:27px}#map-wrap{height:78vh;min-height:520px}#panel{top:auto;left:8px;right:8px;bottom:8px;width:auto;max-height:43%;border-radius:13px}.panel-head{padding:10px}.panel-head h3{font-size:14px}#list{font-size:11px}.grid2,.grid3{grid-template-columns:1fr}.checklist{grid-template-columns:1fr}th,td{font-size:11px;padding:8px}.section{padding:24px 12px}}
+</style>
+</head><body>
+<div class="topbar"><div class="brand">Singapore <span>Family Trip</span></div><div class="nav"><a href="#overview">总览</a><a href="#mapsec">地图</a><a href="#itinerary">每日行程</a><a href="#tickets">门票</a><a href="#food">餐饮</a><a href="#nearby">酒店周边</a><a href="#prep">出发准备</a></div></div>
+<section class="hero" id="overview"><h1>2026 国庆 · 新加坡三代亲子旅行</h1><p>10月3日–10月9日 · 4位成人 + 1位近2岁儿童 · 轻松观光 / 自然 / 城市文化 / 亲子体验</p><div class="chips"><span class="chip"><b>10/3–10/6</b> Holiday Inn Singapore Atrium</span><span class="chip"><b>10/7–10/8</b> Holiday Inn Singapore Orchard City Centre</span><span class="chip"><b>午睡</b> 通常 13:30–15:00</span><span class="chip"><b>原则</b> 每天一个主轴，晚间项目可取消</span></div><div class="notice"><b>当前重要策略：</b>Marina Bay完整夜景首选10/4，10/6为天气备用；10/7只专注Gardens by the Bay＋19:45 Garden Rhapsody。Mandai只把Singapore Zoo视为必选，River Wonders与Night Safari均按体力升级。</div></section>
+<section class="section" id="mapsec"><h2>景点地图</h2><div class="sub">以 source.xlsx 的31个景点为底表，叠加当前最新筛选状态与计划日期。点击地图标记或右侧列表查看详情。</div><div class="status-legend"><span><i style="width:9px;height:9px;border-radius:50%;background:#2b6cff;display:inline-block"></i>确定</span><span><i style="width:9px;height:9px;border-radius:50%;background:#f59e0b;display:inline-block"></i>可选</span><span><i style="width:9px;height:9px;border-radius:50%;background:#8b5cf6;display:inline-block"></i>机动</span><span><i style="width:9px;height:9px;border-radius:50%;background:#ef4444;display:inline-block"></i>取消</span><span><i style="width:9px;height:9px;border-radius:50%;background:#9ca3af;display:inline-block"></i>不安排</span></div><div id="map-wrap" class="card"><div id="map"></div><div id="panel"><div class="panel-head"><h3>景点候选池 · 31</h3><div class="filters"><button class="filter active" data-filter="行程">行程内</button><button class="filter" data-filter="确定">确定</button><button class="filter" data-filter="可选">可选</button><button class="filter" data-filter="机动">机动</button><button class="filter" data-filter="不安排">不安排</button><button class="filter" data-filter="全部">全部</button></div><input id="search" placeholder="搜索景点 / 片区 / 类型" /></div><div id="list"></div></div></div></section>
+<section class="section" id="itinerary"><h2>每日行程</h2><div class="sub">当前主版本；含两种交通思路和可取消节点。点击日期切换。</div><div class="tabs" id="day-tabs"></div><div id="day-panes"></div></section>
+<section class="section" id="tickets"><h2>门票与预约待办</h2><div class="sub">目前都还没买；剩余项目库存整体不紧张，先作为待办记录，临近出发按天气与最终方案购买。</div><div class="table-wrap"><table><thead><tr><th>项目</th><th>状态</th><th>日期</th><th>建议处理</th><th>备注</th></tr></thead><tbody><tr><td>KidsSTOP</td><td>未买</td><td>10/6</td><td>按最终上午/下午方案决定后购票</td><td>固定场次；不建议当天才碰库存</td></tr><tr><td>Mandai Destination Pass</td><td>未买</td><td>10/5</td><td>出发前购买</td><td>Zoo必去；River Wonders / Night Safari按状态决定</td></tr><tr><td>Singapore Oceanarium</td><td>未买</td><td>10/8</td><td>临近出发锁13:00左右时段</td><td>高峰期可能定时入场</td></tr><tr><td>Gardens by the Bay</td><td>未买</td><td>10/7</td><td>出发前1–3天购买</td><td>10/6 Flower Dome维护，10/7正常</td></tr><tr><td>Singapore Cable Car</td><td>未买</td><td>10/8</td><td>临近出发购买</td><td>不属于紧张票</td></tr><tr><td>River Cruise</td><td>未买</td><td>机动</td><td>当天/临近决定</td><td>保持天气和体力弹性</td></tr><tr><td>Singapore Flyer</td><td>未买</td><td>机动</td><td>当天看天气</td><td>纯备选</td></tr><tr><td>Wings of Time</td><td>未买</td><td>10/8可选</td><td>当天看孩子状态</td><td>不因已买票而强撑</td></tr><tr><td>National Gallery / ACM / National Museum</td><td>未买</td><td>机动</td><td>现场或当天决定</td><td>Gallery 10/4相对固定；ACM/National Museum可互换</td></tr><tr><td>Children’s Museum</td><td>取消</td><td>—</td><td>本次不考虑</td><td>票已约满，最早11/7</td></tr></tbody></table></div></section>
+<section class="section" id="food"><h2>餐饮候选</h2><div class="sub">新加坡 / 东南亚菜优先；减少日料生冷与重口味印度菜。宝宝以白饭、鸡肉、汤面、蛋、豆腐、清淡蔬菜等为安全垫。</div><div class="table-wrap"><table><thead><tr><th>日期 / 区域</th><th>候选</th><th>菜系</th><th>执行建议</th></tr></thead><tbody><tr><td>10/3 Jewel / Chinatown</td><td>Jewel现场选新加坡/东南亚菜；若去Chinatown可选hawker</td><td>新加坡 / 东南亚</td><td>鸡饭、粥、汤面、豆腐等宝宝更好适配</td></tr><tr><td>10/4 Botanic Gardens / 市中心</td><td>The Halia（可选正式午餐）；Gallery内咖啡馆只做补给</td><td>现代亚洲 / 本地融合</td><td>不为餐厅牺牲午睡</td></tr><tr><td>10/4或10/6 Kampong Gelam</td><td>马来/印尼家庭餐厅；Hjh Maimunah适合非周日时段</td><td>马来 / 印尼</td><td>成人尝仁当、椰浆饭；宝宝点白饭、蛋、不辣鸡肉</td></tr><tr><td>10/5 Mandai</td><td>园区Food Republic / Mama Panda Kitchen / Ulu Ulu</td><td>新加坡 / 亚洲</td><td>不离园吃饭，保证体力与节奏</td></tr><tr><td>10/6 ACM / Singapore River</td><td>Boat Quay周边新加坡/娘惹菜</td><td>新加坡 / 娘惹 / 东南亚</td><td>适合配River Cruise；宝宝用白饭、汤、蛋、豆腐</td></tr><tr><td>10/7 Gardens by the Bay</td><td>Jurassic Nest Food Hall</td><td>亚洲 / 新加坡 / 多国</td><td>方便接19:45 Garden Rhapsody；Satay by the Bay 10/1起关闭改造</td></tr><tr><td>10/8 Sentosa</td><td>Asian Food Hall @ WEAVE / 中式家庭餐厅</td><td>亚洲 / 新加坡 / 东南亚</td><td>午餐保持简单，不安排日料生冷或重香料印度菜</td></tr><tr><td>酒店周边</td><td>Atrium附近Robertson Quay；Orchard可选娘惹菜/Chatterbox</td><td>新加坡 / 娘惹 / 中式</td><td>疲劳时优先舒适与宝宝适配</td></tr></tbody></table></div></section>
+<section class="section" id="nearby"><h2>酒店周边 1–2小时机动活动</h2><div class="sub">不塞进主行程，作为早回酒店、孩子早醒、晚间项目取消后的随手备选。</div><div class="grid3"><div class="card mini"><h3>Robertson Quay + Singapore River</h3><p><b>雅庭假日酒店</b> · 1–2h · ★★★★★</p><p>河边平坦、推车友好，入住后/早晨随时散步</p></div><div class="card mini"><h3>Kim Seng Park + 河边</h3><p><b>雅庭假日酒店</b> · 45–90min · ★★★★</p><p>社区公园、草坪、非常轻松</p></div><div class="card mini"><h3>Tiong Bahru + Tiong Bahru Park</h3><p><b>雅庭假日酒店</b> · 1.5–2h · ★★★★</p><p>本地社区＋儿童游乐区</p></div><div class="card mini"><h3>Emerald Hill + Orchard短散步</h3><p><b>乌节中心假日酒店</b> · 1–1.5h · ★★★★★</p><p>保育店屋、娘惹建筑、随时可逛</p></div><div class="card mini"><h3>Istana Park + Dhoby Ghaut</h3><p><b>乌节中心假日酒店</b> · 45–90min · ★★★★</p><p>轻松城市绿地</p></div><div class="card mini"><h3>Fort Canning Park</h3><p><b>乌节中心假日酒店</b> · 1–2h · ★★★★</p><p>若10/4未去，可作为酒店附近备选</p></div></div></section>
+<section class="section"><h2>现场应急规则</h2><div class="grid2"><div class="card mini"><h3>Mandai逐级升级</h3><p><b>Zoo = 必选</b> → 状态好再去 River Wonders → 傍晚仍有精力再去 Night Safari。下午太累时，River Wonders 和 Night Safari 都可取消。</p></div><div class="card mini"><h3>Marina Bay天气保险</h3><p><b>10/4首选夜景</b> → 下雨则10/6备用 → 10/7不再强求完整夜景，只看Gardens by the Bay自己的灯光秀。</p></div><div class="card mini"><h3>10/6备选方案</h3><p>主方案仍为上午KidsSTOP。若希望“上午户外＋下午室内”，可改为上午Fort Canning / Chinatown等，午睡后15:15左右进入KidsSTOP下午场。</p></div><div class="card mini"><h3>删减优先级</h3><p>先删 Singapore Flyer / Wings / Fort Canning / 晚间街区 / River Cruise；再删 Night Safari / ACM / National Museum。核心主轴尽量不动。</p></div></div></section>
+<section class="section" id="prep"><h2>出发前准备</h2><div class="sub">10/1–10/2重点完成。门票、天气、F1、景点维护会在出发前再复核。</div><div class="checklist"><div class="check">☐ 5本护照有效期检查</div><div class="check">☐ 5人SG Arrival Card（10/3抵达，9/30起可提交）</div><div class="check">☐ eSIM/漫游至少2位成人独立可用</div><div class="check">☐ 成人交通支付方式 / 少量新币现金</div><div class="check">☐ 宝宝婴儿车＋雨罩＋每日换洗衣物</div><div class="check">☐ 宝宝常用药 / 退烧药 / 温度计</div><div class="check">☐ 成人常用药与处方药合规检查</div><div class="check">☐ 折叠伞、防晒、防蚊、薄外套</div><div class="check">☐ 酒店与航班确认单离线保存</div><div class="check">☐ 出发前1–2天复核天气、景点维护、F1交通</div></div></section>
+<div class="foot">Singapore Family Trip · v1 · 基于当前行程讨论与 source.xlsx 景点母表生成</div>
+<script>
+const attractions=[{"ID": "01", "景点中文名": "滨海湾花园", "英文名": "Gardens by the Bay", "主类型": "自然生态", "所属区域": "中区 Central Region", "片区（中/英）": "滨海湾花园 / Gardens by the Bay", "辅助标签": "亲子｜夜景｜拍照｜免费户外", "核心看点 / Components": "Cloud Forest｜Flower Dome｜Supertree Grove｜儿童花园｜Garden Rhapsody", "交通（公共交通+打车）": "Bayfront MRT（CE1/DT16）或 Gardens by the Bay MRT；打车直达主入口", "雅庭假日酒店·公共交通": "约20–30min", "雅庭假日酒店·打车": "约10–15min", "乌节中心假日酒店·公共交通": "约20–25min", "乌节中心假日酒店·打车": "约10–15min", "建议游玩时长": "3–5h", "2岁儿童友好度": "★★★", "综合推荐": "★★★★★", "一句话推荐理由": "未来感温室、超级树与大型花园集中在一起，兼顾低龄儿童、自然景观和新加坡代表性夜景。", "门票/儿童政策": "非居民 Flower Dome+Cloud Forest 成人 S$46；3–12岁 S$32；3岁以下免费；户外花园免费", "开放时间": "Cloud Forest/Flower Dome 09:00–21:00；户外花园多为05:00–02:00；Garden Rhapsody 19:45/20:45", "最佳时段": "15:00后→夜间", "室内/室外": "混合", "雨天适合": "✅/⚠️", "婴儿车友好": "✅", "注意事项": "建议下午先温室避热、傍晚转户外；Cloud Forest声光较强；不要10/6安排完整双馆", "周边推荐": "ArtScience Museum｜Marina Bay Sands｜Helix Bridge｜Marina Barrage", "行程状态": "待筛选", "计划日期": "待定", "官网/订票": "https://www.gardensbythebay.com.sg/", "详细地址": "18 Marina Gardens Drive, Singapore 018953", "经纬度（规划）": "1.2816,103.8636", "2026-10动态事项": "10/6 Flower Dome整日维护关闭；10/9起Flower Dome Sunflower Surprise；Satay by the Bay自10/1起关闭更新", "核实状态": "已核实", "最新状态": "确定", "最新计划日期": "10/7", "lat": 1.2816, "lng": 103.8636}, {"ID": "02", "景点中文名": "鱼尾狮公园", "英文名": "Merlion Park", "主类型": "城市地标", "所属区域": "中区 Central Region", "片区（中/英）": "滨海湾 / Marina Bay", "辅助标签": "免费｜拍照｜城市地标", "核心看点 / Components": "鱼尾狮｜滨海湾天际线｜金沙对岸视角", "交通（公共交通+打车）": "Raffles Place MRT 步行约8–10min；打车到Fullerton/One Fullerton一带", "雅庭假日酒店·公共交通": "约15–20min", "雅庭假日酒店·打车": "约8–10min", "乌节中心假日酒店·公共交通": "约15–20min", "乌节中心假日酒店·打车": "约8–10min", "建议游玩时长": "30–45min", "2岁儿童友好度": "★★", "综合推荐": "★★★★★", "一句话推荐理由": "新加坡最具辨识度的城市地标，停留时间短，很适合作为滨海湾线路中的核心打卡点。", "门票/儿童政策": "免费", "开放时间": "公共户外空间，全天可达", "最佳时段": "清晨 / 傍晚 / 夜间", "室内/室外": "室外", "雨天适合": "❌", "婴儿车友好": "✅", "注意事项": "无遮阴，避免正午；只作短停留，不需要为孩子延长时间", "周边推荐": "Fullerton｜Esplanade｜National Gallery｜Marina Bay Waterfront", "行程状态": "待筛选", "计划日期": "待定", "官网/订票": "https://www.visitsingapore.com/", "详细地址": "1 Fullerton Road, Singapore 049213", "经纬度（规划）": "1.2868,103.8545", "2026-10动态事项": "10/7起滨海湾F1搭建/交通管制逐步增强；10/9为F1首日", "核实状态": "已核实", "最新状态": "确定", "最新计划日期": "10/4", "lat": 1.2868, "lng": 103.8545}, {"ID": "03", "景点中文名": "艺术科学博物馆", "英文名": "ArtScience Museum", "主类型": "人文博物", "所属区域": "中区 Central Region", "片区（中/英）": "滨海湾 / Marina Bay", "辅助标签": "室内｜雨天｜互动展", "核心看点 / Components": "teamLab Future World｜Into the Ocean（至11/1）｜临时特展", "交通（公共交通+打车）": "Bayfront MRT 步行约5–10min；打车到Marina Bay Sands", "雅庭假日酒店·公共交通": "约20–30min", "雅庭假日酒店·打车": "约10–15min", "乌节中心假日酒店·公共交通": "约20–25min", "乌节中心假日酒店·打车": "约10–15min", "建议游玩时长": "1.5–2.5h", "2岁儿童友好度": "★★", "综合推荐": "★★★★", "一句话推荐理由": "高质量互动数字展兼具审美与参与感，也是炎热或下雨时非常实用的室内备选。", "门票/儿童政策": "Future World：成人 S$35非高峰/S$39高峰；优惠票 S$29/S$33；2岁以下通常不需优惠票；Into the Ocean成人S$22/S$27", "开放时间": "每日09:00–18:00，17:00最后入场", "最佳时段": "上午 / 午后炎热时", "室内/室外": "室内", "雨天适合": "✅", "婴儿车友好": "⚠️", "注意事项": "Future World内禁止婴儿车，入口可停；周五至周日属高峰价；建议预约时段", "周边推荐": "Marina Bay Sands｜Gardens by the Bay｜Helix Bridge｜Marina Bay Waterfront", "行程状态": "待筛选", "计划日期": "待定", "官网/订票": "https://www.marinabaysands.com/museum.html", "详细地址": "6 Bayfront Avenue, Singapore 018974", "经纬度（规划）": "1.2863,103.8593", "2026-10动态事项": "Into the Ocean展至2026/11/1；F1前夕10/7–9周边交通/人流上升", "核实状态": "已核实", "最新状态": "不安排", "最新计划日期": "", "lat": 1.2863, "lng": 103.8593}, {"ID": "04", "景点中文名": "新加坡摩天观景轮", "英文名": "Singapore Flyer", "主类型": "城市地标", "所属区域": "中区 Central Region", "片区（中/英）": "滨海中心 / Marina Centre", "辅助标签": "观景｜室内｜夜景", "核心看点 / Components": "30分钟摩天轮｜Time Capsule", "交通（公共交通+打车）": "Promenade MRT（CC4/DT15）Exit A步行约8min；打车直达", "雅庭假日酒店·公共交通": "约20–25min", "雅庭假日酒店·打车": "约10–15min", "乌节中心假日酒店·公共交通": "约20–25min", "乌节中心假日酒店·打车": "约10–15min", "建议游玩时长": "1–1.5h", "2岁儿童友好度": "★★", "综合推荐": "★★★★", "一句话推荐理由": "几乎不消耗体力就能从高处看完整滨海湾景观，适合三代同行作为轻松型项目。", "门票/儿童政策": "成人 S$40；3–12岁 S$25；3岁以下免费", "开放时间": "每日10:00–22:00，21:30最后入场；无需预约固定时段", "最佳时段": "傍晚 / 夜间", "室内/室外": "室内为主", "雨天适合": "✅", "婴儿车友好": "✅", "注意事项": "阴雨仍可乘但景观打折；F1赛期周边管制明显", "周边推荐": "Marina Bay Promenade｜Helix Bridge｜Esplanade", "行程状态": "待筛选", "计划日期": "待定", "官网/订票": "https://www.singaporeflyer.com/", "详细地址": "30 Raffles Avenue, Singapore 039803", "经纬度（规划）": "1.2893,103.8631", "2026-10动态事项": "1–8 Oct有Day-to-Night等GPSS限定产品；10/9进入F1 Circuit Park运营", "核实状态": "已核实", "最新状态": "可选", "最新计划日期": "10/4", "lat": 1.2893, "lng": 103.8631}, {"ID": "05", "景点中文名": "滨海湾城市漫步", "英文名": "Marina Bay Waterfront", "主类型": "城市地标", "所属区域": "中区 Central Region", "片区（中/英）": "滨海湾 / Marina Bay", "辅助标签": "免费｜夜景｜散步", "核心看点 / Components": "Helix Bridge｜Esplanade｜滨水步道｜城市天际线", "交通（公共交通+打车）": "可从Bayfront/Promenade/Raffles Place任一端进入；打车按起点选择", "雅庭假日酒店·公共交通": "约15–30min", "雅庭假日酒店·打车": "约8–15min", "乌节中心假日酒店·公共交通": "约15–25min", "乌节中心假日酒店·打车": "约8–15min", "建议游玩时长": "1.5–2.5h", "2岁儿童友好度": "★★", "综合推荐": "★★★★", "一句话推荐理由": "把鱼尾狮、金沙、艺术科学博物馆与城市天际线串起来，是傍晚至夜间最有氛围的城市体验之一。", "门票/儿童政策": "免费", "开放时间": "公共空间", "最佳时段": "17:00后", "室内/室外": "室外", "雨天适合": "❌", "婴儿车友好": "✅", "注意事项": "不要追求全环线；推车为主；10/7起F1搭建与管制会影响部分步行/车行路线", "周边推荐": "鱼尾狮｜ArtScience Museum｜Gardens by the Bay｜Singapore Flyer", "行程状态": "待筛选", "计划日期": "待定", "官网/订票": "https://www.visitsingapore.com/", "详细地址": "Marina Bay, Singapore", "经纬度（规划）": "1.2865,103.8580", "2026-10动态事项": "10/9–11 F1 Singapore GP；10/7起部分道路/设施已有管制", "核实状态": "易变化", "最新状态": "确定", "最新计划日期": "10/4", "lat": 1.2865, "lng": 103.858}, {"ID": "06", "景点中文名": "新加坡动物园", "英文名": "Singapore Zoo", "主类型": "动物", "所属区域": "北区 North Region", "片区（中/英）": "万态 / Mandai", "辅助标签": "亲子｜户外｜动物", "核心看点 / Components": "开放式动物展区｜KidzWorld｜动物展示｜园内tram", "交通（公共交通+打车）": "Khatib MRT + Mandai Khatib Shuttle；5人家庭打车/Grab通常更省力", "雅庭假日酒店·公共交通": "约55–75min", "雅庭假日酒店·打车": "约25–35min", "乌节中心假日酒店·公共交通": "约50–70min", "乌节中心假日酒店·打车": "约25–30min", "建议游玩时长": "4–6h", "2岁儿童友好度": "★★★", "综合推荐": "★★★★★", "一句话推荐理由": "动物距离近、园区自然感强并有儿童区域，是本次旅行最核心的亲子候选之一。", "门票/儿童政策": "非居民成人 S$49；3–12岁 S$34；3岁以下免费；tram含票", "开放时间": "每日08:30–18:00，17:00最后入园", "最佳时段": "开园后上午", "室内/室外": "室外为主", "雨天适合": "⚠️", "婴儿车友好": "✅", "注意事项": "面积大，不追求全看；善用tram；带推车、防晒、防蚊、补水", "周边推荐": "River Wonders｜Night Safari｜Mandai Boardwalk", "行程状态": "待筛选", "计划日期": "待定", "官网/订票": "https://www.mandai.com/en/singapore-zoo.html", "详细地址": "80 Mandai Lake Road, Singapore 729826", "经纬度（规划）": "1.4043,103.7930", "2026-10动态事项": null, "核实状态": "已核实", "最新状态": "确定", "最新计划日期": "10/5", "lat": 1.4043, "lng": 103.793}, {"ID": "07", "景点中文名": "河川生态园", "英文名": "River Wonders", "主类型": "动物", "所属区域": "北区 North Region", "片区（中/英）": "万态 / Mandai", "辅助标签": "亲子｜熊猫｜半室内", "核心看点 / Components": "大熊猫｜淡水生态｜大型水生动物｜Once Upon a River", "交通（公共交通+打车）": "Khatib MRT + Mandai Shuttle；打车/Grab", "雅庭假日酒店·公共交通": "约55–75min", "雅庭假日酒店·打车": "约25–35min", "乌节中心假日酒店·公共交通": "约50–70min", "乌节中心假日酒店·打车": "约25–30min", "建议游玩时长": "2.5–4h", "2岁儿童友好度": "★★★", "综合推荐": "★★★★★", "一句话推荐理由": "动线比动物园紧凑、遮蔽更多，又有熊猫和大型水生动物，对低龄儿童尤其友好。", "门票/儿童政策": "非居民成人 S$45；3–12岁 S$33；3岁以下免费", "开放时间": "每日09:00–18:00，17:00最后入园", "最佳时段": "上午 / 午后均可", "室内/室外": "混合", "雨天适合": "✅/⚠️", "婴儿车友好": "✅", "注意事项": "Amazon River Quest需至少1.06m，女儿不能乘；Once Upon a River需按官方开放节奏预约座位", "周边推荐": "Singapore Zoo｜Night Safari", "行程状态": "待筛选", "计划日期": "待定", "官网/订票": "https://www.mandai.com/en/river-wonders.html", "详细地址": "80 Mandai Lake Road, Singapore 729826", "经纬度（规划）": "1.4046,103.7907", "2026-10动态事项": null, "核实状态": "已核实", "最新状态": "可选", "最新计划日期": "10/5", "lat": 1.4046, "lng": 103.7907}, {"ID": "08", "景点中文名": "新加坡飞禽公园", "英文名": "Bird Paradise", "主类型": "动物", "所属区域": "北区 North Region", "片区（中/英）": "万态 / Mandai", "辅助标签": "亲子｜鸟类｜企鹅｜户外", "核心看点 / Components": "大型步入式鸟舍｜企鹅馆｜儿童游乐/水玩", "交通（公共交通+打车）": "Khatib MRT + Mandai Shuttle；打车/Grab", "雅庭假日酒店·公共交通": "约55–75min", "雅庭假日酒店·打车": "约25–35min", "乌节中心假日酒店·公共交通": "约50–70min", "乌节中心假日酒店·打车": "约25–30min", "建议游玩时长": "3–4h", "2岁儿童友好度": "★★★", "综合推荐": "★★★★", "一句话推荐理由": "色彩鲜艳的鸟类展示对低龄儿童直观易懂，企鹅和儿童区也能提供很好的参与感。", "门票/儿童政策": "非居民成人 S$49；3–12岁 S$34；3岁以下免费；园内shuttle含票", "开放时间": "每日09:00–18:00，17:00最后入园", "最佳时段": "上午", "室内/室外": "室外为主", "雨天适合": "⚠️", "婴儿车友好": "✅", "注意事项": "仍需较多户外步行；利用园内shuttle；安排企鹅和儿童区优先", "周边推荐": "Mandai Wildlife WEST｜其他Mandai园区", "行程状态": "待筛选", "计划日期": "待定", "官网/订票": "https://www.mandai.com/en/bird-paradise.html", "详细地址": "20 Mandai Lake Road, Singapore 729825", "经纬度（规划）": "1.4127,103.7800", "2026-10动态事项": null, "核实状态": "已核实", "最新状态": "不安排", "最新计划日期": "", "lat": 1.4127, "lng": 103.78}, {"ID": "09", "景点中文名": "夜间野生动物园", "英文名": "Night Safari", "主类型": "动物", "所属区域": "北区 North Region", "片区（中/英）": "万态 / Mandai", "辅助标签": "夜游｜特色体验｜动物", "核心看点 / Components": "Safari Tram｜夜间步道｜Creatures of the Night", "交通（公共交通+打车）": "Khatib MRT + Mandai Shuttle；晚间返程建议打车/Grab", "雅庭假日酒店·公共交通": "约60–80min", "雅庭假日酒店·打车": "约25–35min", "乌节中心假日酒店·公共交通": "约55–75min", "乌节中心假日酒店·打车": "约25–30min", "建议游玩时长": "3–4h", "2岁儿童友好度": "★", "综合推荐": "★★★★", "一句话推荐理由": "夜间动物体验极具新加坡特色，但对接近2岁的孩子最大问题是时段过晚、容易冲击睡眠节奏。", "门票/儿童政策": "非居民成人 S$58；3–12岁 S$41；3岁以下免费；tram含票", "开放时间": "每日18:00–00:00；主要步道/tram约19:00开始", "最佳时段": "19:00起", "室内/室外": "室外", "雨天适合": "⚠️", "婴儿车友好": "✅", "注意事项": "必须选择入园时段；表演另约座；若孩子当天状态差应直接取消", "周边推荐": "Singapore Zoo｜River Wonders", "行程状态": "待筛选", "计划日期": "待定", "官网/订票": "https://www.mandai.com/en/night-safari.html", "详细地址": "80 Mandai Lake Road, Singapore 729826", "经纬度（规划）": "1.4022,103.7887", "2026-10动态事项": null, "核实状态": "已核实", "最新状态": "可选", "最新计划日期": "10/5", "lat": 1.4022, "lng": 103.7887}, {"ID": "10", "景点中文名": "雨林探险园", "英文名": "Rainforest Wild Adventure", "主类型": "动物", "所属区域": "北区 North Region", "片区（中/英）": "万态 / Mandai", "辅助标签": "探险｜户外｜新景点", "核心看点 / Components": "热带雨林动物｜步道｜Adventure+活动", "交通（公共交通+打车）": "Khatib MRT + Mandai Shuttle；打车/Grab", "雅庭假日酒店·公共交通": "约55–75min", "雅庭假日酒店·打车": "约25–35min", "乌节中心假日酒店·公共交通": "约50–70min", "乌节中心假日酒店·打车": "约25–30min", "建议游玩时长": "3–4h", "2岁儿童友好度": "★", "综合推荐": "★★★", "一句话推荐理由": "新型雨林探险动物园很有特色，但核心探险体验明显偏向大龄儿童和成人。", "门票/儿童政策": "非居民成人 S$55；3–12岁 S$39；3岁以下免费", "开放时间": "通常09:00–18:00（按官方日期页复核）", "最佳时段": "上午", "室内/室外": "室外", "雨天适合": "❌/⚠️", "婴儿车友好": "⚠️", "注意事项": "园区基础设施可推车，但核心探险项目与2岁儿童不匹配；按身高和安全规则筛项目", "周边推荐": "其他Mandai园区", "行程状态": "待筛选", "计划日期": "待定", "官网/订票": "https://www.mandai.com/en/tickets-and-passes/single-attractions.html", "详细地址": "Mandai Wildlife Reserve, Singapore", "经纬度（规划）": "1.4120,103.7815", "2026-10动态事项": null, "核实状态": "已核实", "最新状态": "不安排", "最新计划日期": "", "lat": 1.412, "lng": 103.7815}, {"ID": "11", "景点中文名": "新加坡植物园", "英文名": "Singapore Botanic Gardens", "主类型": "自然生态", "所属区域": "中区 Central Region", "片区（中/英）": "植物园 / Botanic Gardens", "辅助标签": "UNESCO｜免费｜亲子｜自然", "核心看点 / Components": "湖区｜热带植物｜Jacob Ballas儿童花园｜国家胡姬花园", "交通（公共交通+打车）": "Botanic Gardens MRT或Napier MRT；打车可按Tyersall/Napier入口", "雅庭假日酒店·公共交通": "约25–35min", "雅庭假日酒店·打车": "约15–20min", "乌节中心假日酒店·公共交通": "约15–25min", "乌节中心假日酒店·打车": "约10–15min", "建议游玩时长": "2.5–4h", "2岁儿童友好度": "★★★", "综合推荐": "★★★★★", "一句话推荐理由": "世界遗产植物园适合慢逛，儿童花园又能让孩子真正参与，是非常符合轻松三代游的自然景点。", "门票/儿童政策": "主园免费；国家胡姬花园另收费", "开放时间": "主园每日05:00–00:00；Jacob Ballas 08:00–19:00，18:30最后入场，周一闭园", "最佳时段": "清晨–上午", "室内/室外": "室外", "雨天适合": "⚠️", "婴儿车友好": "✅", "注意事项": "10/5周一Jacob Ballas关闭；Tree House长期关闭至约2027；雷雨时部分儿童区会临时关闭", "周边推荐": "National Orchid Garden｜Dempsey", "行程状态": "待筛选", "计划日期": "待定", "官网/订票": "https://sbg.nparks.gov.sg/", "详细地址": "1 Cluny Road, Singapore 259569", "经纬度（规划）": "1.3138,103.8159", "2026-10动态事项": "10/5为周一，儿童花园关闭", "核实状态": "已核实", "最新状态": "确定", "最新计划日期": "10/4", "lat": 1.3138, "lng": 103.8159}, {"ID": "12", "景点中文名": "新加坡环球影城", "英文名": "Universal Studios Singapore", "主类型": "游乐体验", "所属区域": "中区 Central Region", "片区（中/英）": "圣淘沙·名胜世界 / Sentosa · Resorts World", "辅助标签": "主题乐园｜角色互动｜全天", "核心看点 / Components": "Minion Land｜主题区｜游乐设施｜演出", "交通（公共交通+打车）": "HarbourFront MRT→Sentosa Express→Resorts World Station；打车直达RWS", "雅庭假日酒店·公共交通": "约25–40min", "雅庭假日酒店·打车": "约15–20min", "乌节中心假日酒店·公共交通": "约30–40min", "乌节中心假日酒店·打车": "约15–20min", "建议游玩时长": "6h+", "2岁儿童友好度": "★", "综合推荐": "★★★★", "一句话推荐理由": "主题氛围和成人娱乐价值很高，但大量核心设施有身高限制，2岁儿童真正能参与的内容有限。", "门票/儿童政策": "一日票当前成人约S$76起；4岁以下通常免票；儿童票按4–12岁", "开放时间": "营业时间按日期变化，当前常见10:00–19:00/20:00；须查当天日历", "最佳时段": "开园即入", "室内/室外": "混合", "雨天适合": "⚠️", "婴儿车友好": "✅", "注意事项": "高峰排队明显；建议提前购票；带2岁孩子不要以“玩项目数量”衡量价值", "周边推荐": "Singapore Oceanarium｜RWS餐饮｜Sensoryscape", "行程状态": "待筛选", "计划日期": "待定", "官网/订票": "https://www.rwsentosa.com/en/play/universal-studios-singapore", "详细地址": "30 Sentosa Gateway, Singapore 098140", "经纬度（规划）": "1.2540,103.8238", "2026-10动态事项": "营业时间和临时项目关闭会变化；须按计划日期二次核实", "核实状态": "易变化", "最新状态": "不安排", "最新计划日期": "", "lat": 1.254, "lng": 103.8238}, {"ID": "13", "景点中文名": "新加坡海洋生态馆", "英文名": "Singapore Oceanarium", "主类型": "动物", "所属区域": "中区 Central Region", "片区（中/英）": "圣淘沙·名胜世界 / Sentosa · Resorts World", "辅助标签": "亲子｜室内｜雨天｜海洋", "核心看点 / Components": "大型海洋生态展区｜Open Ocean｜鲨鱼/鳐鱼/水母｜互动展示", "交通（公共交通+打车）": "HarbourFront MRT→Sentosa Express→Resorts World；打车直达RWS", "雅庭假日酒店·公共交通": "约25–40min", "雅庭假日酒店·打车": "约15–20min", "乌节中心假日酒店·公共交通": "约30–40min", "乌节中心假日酒店·打车": "约15–20min", "建议游玩时长": "3–4h", "2岁儿童友好度": "★★★", "综合推荐": "★★★★★", "一句话推荐理由": "全室内、大型海洋生物视觉刺激强，不依赖身高，是接近2岁儿童也能充分参与的核心亲子景点。", "门票/儿童政策": "成人 S$55；4–12岁 S$43；4岁以下免费", "开放时间": "通常10:00–20:00；高峰期分时入场", "最佳时段": "上午 / 高峰日早去", "室内/室外": "室内", "雨天适合": "✅", "婴儿车友好": "✅", "注意事项": "高峰期按时段入场；Marine Mammal Habitat Viewing Panel暂时关闭", "周边推荐": "USS｜RWS｜Sensoryscape", "行程状态": "待筛选", "计划日期": "待定", "官网/订票": "https://www.singaporeoceanarium.com/", "详细地址": "24 Sentosa Gateway, Singapore 098137", "经纬度（规划）": "1.2580,103.8200", "2026-10动态事项": "你们10/3–9期间无已公布提前闭馆；Oct 2提前16:00闭馆已与本次无关", "核实状态": "已核实", "最新状态": "确定", "最新计划日期": "10/8", "lat": 1.258, "lng": 103.82}, {"ID": "14", "景点中文名": "新加坡缆车", "英文名": "Singapore Cable Car", "主类型": "游乐体验", "所属区域": "中区 Central Region", "片区（中/英）": "花柏山—圣淘沙 / Mount Faber–Sentosa", "辅助标签": "观景｜交通体验｜轻体力", "核心看点 / Components": "Mount Faber Line｜Sentosa Line｜港口俯瞰", "交通（公共交通+打车）": "HarbourFront MRT Exit B→HarbourFront Tower 2；打车到Mount Faber或HarbourFront", "雅庭假日酒店·公共交通": "约15–25min", "雅庭假日酒店·打车": "约10–15min", "乌节中心假日酒店·公共交通": "约20–30min", "乌节中心假日酒店·打车": "约10–15min", "建议游玩时长": "1–1.5h", "2岁儿童友好度": "★★", "综合推荐": "★★★★", "一句话推荐理由": "把交通本身变成观景体验，孩子也能轻松参与，特别适合作为进出圣淘沙的一段旅程。", "门票/儿童政策": "SkyPass双线往返当前促销约成人S$34、4–12岁S$29；4岁以下通常免费；价格/促销会变", "开放时间": "每日08:45–22:00，21:30最后登车", "最佳时段": "上午 / 傍晚", "室内/室外": "室内舱体", "雨天适合": "⚠️", "婴儿车友好": "✅", "注意事项": "婴儿车可上缆车；如只为交通可选单程/简化路线；促销价需购票时复核", "周边推荐": "Mount Faber｜VivoCity｜HarbourFront｜Sentosa", "行程状态": "待筛选", "计划日期": "待定", "官网/订票": "https://mountfaberleisure.com/attraction/singapore-cable-car/", "详细地址": "HarbourFront Tower 2 / 109 Mount Faber Road", "经纬度（规划）": "1.2710,103.8190", "2026-10动态事项": null, "核实状态": "易变化", "最新状态": "确定", "最新计划日期": "10/8", "lat": 1.271, "lng": 103.819}, {"ID": "15", "景点中文名": "圣淘沙海滩", "英文名": "Sentosa Beaches", "主类型": "自然生态", "所属区域": "中区 Central Region", "片区（中/英）": "圣淘沙 / Sentosa", "辅助标签": "海滩｜免费｜亲子｜放电", "核心看点 / Components": "Palawan｜Siloso｜Tanjong Beach", "交通（公共交通+打车）": "Sentosa Express→Beach Station；岛内巴士；打车", "雅庭假日酒店·公共交通": "约30–45min", "雅庭假日酒店·打车": "约15–20min", "乌节中心假日酒店·公共交通": "约35–45min", "乌节中心假日酒店·打车": "约15–20min", "建议游玩时长": "1.5–3h", "2岁儿童友好度": "★★★", "综合推荐": "★★★★", "一句话推荐理由": "沙滩能让孩子自由活动和放电，适合夹在收费项目之间降低全天行程强度。", "门票/儿童政策": "免费；水上活动另收费", "开放时间": "公共海滩，依区域设施营业时间而定", "最佳时段": "上午 / 16:00后", "室内/室外": "室外", "雨天适合": "❌", "婴儿车友好": "✅", "注意事项": "中午暴晒强；备泳衣、毛巾、换洗衣物、防晒；注意海况", "周边推荐": "Sensoryscape｜Wings of Time｜Palawan区域设施", "行程状态": "待筛选", "计划日期": "待定", "官网/订票": "https://www.sentosa.com.sg/en/things-to-do/attractions/", "详细地址": "Sentosa Island, Singapore", "经纬度（规划）": "1.2494,103.8303", "2026-10动态事项": null, "核实状态": "已核实", "最新状态": "可选", "最新计划日期": "10/8", "lat": 1.2494, "lng": 103.8303}, {"ID": "16", "景点中文名": "时光之翼烟花交响曲", "英文名": "Wings of Time Fireworks Symphony", "主类型": "游乐体验", "所属区域": "中区 Central Region", "片区（中/英）": "圣淘沙·西乐索 / Sentosa · Siloso", "辅助标签": "夜间｜烟花｜水幕", "核心看点 / Components": "水幕｜激光｜火焰｜烟花", "交通（公共交通+打车）": "Sentosa Express→Beach Station；岛内巴士A/B；打车到Beach Station", "雅庭假日酒店·公共交通": "约35–45min", "雅庭假日酒店·打车": "约15–20min", "乌节中心假日酒店·公共交通": "约35–45min", "乌节中心假日酒店·打车": "约15–20min", "建议游玩时长": "30–45min", "2岁儿童友好度": "★★", "综合推荐": "★★★★", "一句话推荐理由": "约20分钟即可获得完整水幕烟花体验，很适合收尾圣淘沙一天，但声音和时间对幼儿有一定挑战。", "门票/儿童政策": "标准票 S$22起；4岁以上需票；4岁以下无需票", "开放时间": "每日19:40、20:40；约20min；rain or shine", "最佳时段": "19:40场优先", "室内/室外": "室外", "雨天适合": "⚠️", "婴儿车友好": "✅", "注意事项": "提前15min入场；座位先到先得；怕巨响可准备儿童降噪耳罩", "周边推荐": "Beach Station｜Siloso Beach｜Sensoryscape", "行程状态": "待筛选", "计划日期": "待定", "官网/订票": "https://www.sentosa.com.sg/en/things-to-do/attractions/wings-of-time/", "详细地址": "Beach Station, Sentosa, Singapore", "经纬度（规划）": "1.2510,103.8165", "2026-10动态事项": null, "核实状态": "已核实", "最新状态": "可选", "最新计划日期": "10/8", "lat": 1.251, "lng": 103.8165}, {"ID": "17", "景点中文名": "新加坡国家美术馆", "英文名": "National Gallery Singapore", "主类型": "人文博物", "所属区域": "中区 Central Region", "片区（中/英）": "市政区 / Civic District", "辅助标签": "室内｜艺术｜建筑｜亲子空间", "核心看点 / Components": "新加坡艺术｜历史建筑｜儿童艺术空间", "交通（公共交通+打车）": "City Hall MRT Exit B步行约7min；打车到1 St Andrew's Road", "雅庭假日酒店·公共交通": "约15–20min", "雅庭假日酒店·打车": "约8–10min", "乌节中心假日酒店·公共交通": "约10–15min", "乌节中心假日酒店·打车": "约5–10min", "建议游玩时长": "2–3h", "2岁儿童友好度": "★★", "综合推荐": "★★★★", "一句话推荐理由": "建筑与东南亚艺术对成人很值得看，同时儿童空间让带娃参观不至于完全变成陪同。", "门票/儿童政策": "标准成人 S$20；7–12岁/60岁以上等优惠减S$5；6岁及以下免费", "开放时间": "每日10:00–19:00，18:30最后入场", "最佳时段": "午后", "室内/室外": "室内", "雨天适合": "✅", "婴儿车友好": "✅", "注意事项": "UOB Southeast Asia Gallery关闭至2027年底；室内较冷；10/7–9受F1周边交通管制影响", "周边推荐": "Padang｜St Andrew's Cathedral｜ACM｜Merlion", "行程状态": "待筛选", "计划日期": "待定", "官网/订票": "https://www.nationalgallery.sg/", "详细地址": "1 St Andrew's Road, Singapore 178957", "经纬度（规划）": "1.2906,103.8515", "2026-10动态事项": "10/7–9 Gallery carpark受F1管制；10/9 10:00起停车场关闭至10/13", "核实状态": "已核实", "最新状态": "确定", "最新计划日期": "10/4", "lat": 1.2906, "lng": 103.8515}, {"ID": "18", "景点中文名": "新加坡国家博物馆", "英文名": "National Museum of Singapore", "主类型": "人文博物", "所属区域": "中区 Central Region", "片区（中/英）": "市政区 / Civic District", "辅助标签": "室内｜历史｜雨天", "核心看点 / Components": "Singapore Odyssea｜Once Upon a Tide｜Singapore History Gallery（待重开）", "交通（公共交通+打车）": "Bencoolen / Bras Basah / Dhoby Ghaut MRT；打车到Stamford Road", "雅庭假日酒店·公共交通": "约15–20min", "雅庭假日酒店·打车": "约8–10min", "乌节中心假日酒店·公共交通": "约10–15min", "乌节中心假日酒店·打车": "约5–10min", "建议游玩时长": "1.5–2.5h", "2岁儿童友好度": "★★", "综合推荐": "★★★★", "一句话推荐理由": "理解新加坡历史最直接的博物馆之一，室内舒适，但2岁孩子主要以观看和陪同为主。", "门票/儿童政策": "游客成人约S$20；60岁以上/学生约S$15；6岁及以下免费", "开放时间": "每日10:00–19:00", "最佳时段": "午后", "室内/室外": "室内", "雨天适合": "✅", "婴儿车友好": "✅", "注意事项": "Singapore History Gallery只公布“2026年10月重开”，未给具体日；Once Upon a Tide互动安装至10/6", "周边推荐": "Fort Canning Park｜Children's Museum｜Dhoby Ghaut", "行程状态": "待筛选", "计划日期": "待定", "官网/订票": "https://www.nationalmuseum.nhb.gov.sg/", "详细地址": "93 Stamford Road, Singapore 178897", "经纬度（规划）": "1.2966,103.8485", "2026-10动态事项": "历史馆重开日期未明，整个旅行期须临行复核", "核实状态": "易变化", "最新状态": "机动", "最新计划日期": "10/7", "lat": 1.2966, "lng": 103.8485}, {"ID": "19", "景点中文名": "牛车水", "英文名": "Chinatown", "主类型": "人文博物", "所属区域": "中区 Central Region", "片区（中/英）": "牛车水 / Chinatown", "辅助标签": "街区｜美食｜宗教｜店屋", "核心看点 / Components": "佛牙寺｜传统店屋｜熟食中心｜壁画", "交通（公共交通+打车）": "Chinatown MRT / Maxwell MRT；打车", "雅庭假日酒店·公共交通": "约10–15min", "雅庭假日酒店·打车": "约5–10min", "乌节中心假日酒店·公共交通": "约15–20min", "乌节中心假日酒店·打车": "约10min", "建议游玩时长": "2–3h", "2岁儿童友好度": "★★", "综合推荐": "★★★★", "一句话推荐理由": "在紧凑步行范围内同时看到宗教、传统店屋和本地饮食，是体验多元新加坡最容易进入的一站。", "门票/儿童政策": "街区免费；个别场馆另收费", "开放时间": "街区全天；店铺/寺庙各有时间", "最佳时段": "上午 / 傍晚", "室内/室外": "室外为主", "雨天适合": "⚠️", "婴儿车友好": "✅", "注意事项": "不要强求全逛；中午热；寺庙注意着装礼仪", "周边推荐": "Buddha Tooth Relic Temple｜Maxwell Food Centre｜Ann Siang Hill｜Singapore River", "行程状态": "待筛选", "计划日期": "待定", "官网/订票": "https://www.visitsingapore.com/neighbourhood/featured-neighbourhood/chinatown/", "详细地址": "Chinatown, Singapore", "经纬度（规划）": "1.2838,103.8439", "2026-10动态事项": null, "核实状态": "已核实", "最新状态": "可选", "最新计划日期": "10/3", "lat": 1.2838, "lng": 103.8439}, {"ID": "20", "景点中文名": "甘榜格南", "英文名": "Kampong Gelam", "主类型": "人文博物", "所属区域": "中区 Central Region", "片区（中/英）": "甘榜格南 / Kampong Gelam", "辅助标签": "街区｜马来文化｜拍照｜美食", "核心看点 / Components": "Sultan Mosque｜Arab Street｜Haji Lane", "交通（公共交通+打车）": "Bugis MRT步行约8–12min；打车", "雅庭假日酒店·公共交通": "约20–30min", "雅庭假日酒店·打车": "约10–15min", "乌节中心假日酒店·公共交通": "约10–20min", "乌节中心假日酒店·打车": "约5–10min", "建议游玩时长": "1.5–2.5h", "2岁儿童友好度": "★★", "综合推荐": "★★★★", "一句话推荐理由": "色彩鲜明、步行尺度适中，可以轻松体验新加坡马来—穆斯林文化与街区氛围。", "门票/儿童政策": "街区免费", "开放时间": "街区全天；宗教场所/店铺各有时间", "最佳时段": "上午 / 傍晚", "室内/室外": "室外为主", "雨天适合": "⚠️", "婴儿车友好": "✅", "注意事项": "进入宗教场所注意着装；Haji Lane推车在人多时略拥挤", "周边推荐": "Sultan Mosque｜Arab Street｜Bugis", "行程状态": "待筛选", "计划日期": "待定", "官网/订票": "https://www.visitsingapore.com/neighbourhood/featured-neighbourhood/kampong-gelam/", "详细地址": "Kampong Gelam, Singapore", "经纬度（规划）": "1.3020,103.8590", "2026-10动态事项": null, "核实状态": "已核实", "最新状态": "可选", "最新计划日期": "10/4 / 10/6", "lat": 1.302, "lng": 103.859}, {"ID": "21", "景点中文名": "小印度", "英文名": "Little India", "主类型": "人文博物", "所属区域": "中区 Central Region", "片区（中/英）": "小印度 / Little India", "辅助标签": "街区｜印度文化｜市场｜美食", "核心看点 / Components": "Tekka Centre｜寺庙｜彩色店屋｜印度餐饮", "交通（公共交通+打车）": "Little India / Rochor MRT；打车", "雅庭假日酒店·公共交通": "约20–30min", "雅庭假日酒店·打车": "约10–15min", "乌节中心假日酒店·公共交通": "约10–15min", "乌节中心假日酒店·打车": "约5–10min", "建议游玩时长": "1.5–2.5h", "2岁儿童友好度": "★★", "综合推荐": "★★★", "一句话推荐理由": "文化反差鲜明，但对2岁孩子参与性有限，更适合作为成人城市体验和顺路街区。", "门票/儿童政策": "街区免费", "开放时间": "街区全天；场馆/店铺各有时间", "最佳时段": "上午 / 傍晚", "室内/室外": "室外为主", "雨天适合": "⚠️", "婴儿车友好": "✅", "注意事项": "部分人行道狭窄、气味和声音刺激更强；控制时长", "周边推荐": "Tekka Centre｜Indian Heritage Centre｜Sri Veeramakaliamman Temple", "行程状态": "待筛选", "计划日期": "待定", "官网/订票": "https://www.visitsingapore.com/neighbourhood/featured-neighbourhood/little-india/", "详细地址": "Little India, Singapore", "经纬度（规划）": "1.3066,103.8518", "2026-10动态事项": null, "核实状态": "已核实", "最新状态": "可选", "最新计划日期": "10/4 / 10/6", "lat": 1.3066, "lng": 103.8518}, {"ID": "22", "景点中文名": "新加坡科学馆 + KidsSTOP", "英文名": "Science Centre Singapore + KidsSTOP", "主类型": "人文博物", "所属区域": "西区 West Region", "片区（中/英）": "裕廊东 / Jurong East", "辅助标签": "室内｜雨天｜低龄互动", "核心看点 / Components": "Science Centre｜KidsSTOP低龄互动区", "交通（公共交通+打车）": "Jurong East MRT + 公交/步行；打车更省力", "雅庭假日酒店·公共交通": "约40–50min", "雅庭假日酒店·打车": "约20–30min", "乌节中心假日酒店·公共交通": "约35–45min", "乌节中心假日酒店·打车": "约20–25min", "建议游玩时长": "3–5h", "2岁儿童友好度": "★★★", "综合推荐": "★★★★", "一句话推荐理由": "KidsSTOP专门面向低龄儿童，实际年龄匹配度远高于普通科技馆，是很好的雨天亲子候选。", "门票/儿童政策": "Science Centre游客成人约S$12、3–12岁S$8；KidsSTOP另售票，18个月以上需儿童票（以购票页当日价为准）", "开放时间": "周二–周日10:00–17:00；KidsSTOP 10:00–13:00 / 14:00–17:00；周一通常关闭", "最佳时段": "上午场优先", "室内/室外": "室内", "雨天适合": "✅", "婴儿车友好": "⚠️", "注意事项": "KidsSTOP禁止婴儿车进入；建议直接以KidsSTOP为主；10/5周一通常关闭", "周边推荐": "Jurong Lake Gardens（天气好时）", "行程状态": "待筛选", "计划日期": "待定", "官网/订票": "https://www.science.edu.sg/", "详细地址": "15 Science Centre Road, Singapore 609081", "经纬度（规划）": "1.3331,103.7356", "2026-10动态事项": "10/5周一通常闭馆；KidsSTOP需预约时段", "核实状态": "已核实", "最新状态": "确定", "最新计划日期": "10/6", "lat": 1.3331, "lng": 103.7356}, {"ID": "23", "景点中文名": "星耀樟宜", "英文名": "Jewel Changi Airport", "主类型": "城市地标", "所属区域": "东区 East Region", "片区（中/英）": "樟宜 / Changi", "辅助标签": "机场｜室内｜亲子｜购物", "核心看点 / Components": "Rain Vortex｜Forest Valley｜Canopy Park", "交通（公共交通+打车）": "Changi Airport MRT→T1/Jewel步行；打车直达T1/Jewel", "雅庭假日酒店·公共交通": "约55–70min", "雅庭假日酒店·打车": "约25–35min", "乌节中心假日酒店·公共交通": "约50–65min", "乌节中心假日酒店·打车": "约25–30min", "建议游玩时长": "2–4h", "2岁儿童友好度": "★★★", "综合推荐": "★★★★★", "一句话推荐理由": "把机场、室内花园、巨型瀑布与儿童活动结合在一起，最适合与抵达或离境日整合。", "门票/儿童政策": "Rain Vortex/Forest Valley免费；Canopy Park标准S$8；3岁以下Canopy Park免费；部分项目110cm身高限制", "开放时间": "Rain Vortex每日10:00–22:00；Canopy Park按日历，通常10:00起", "最佳时段": "航班日 / 傍晚", "室内/室外": "室内", "雨天适合": "✅", "婴儿车友好": "✅/⚠️", "注意事项": "公共区推车友好；部分Canopy项目不适合低龄儿童；不用为了2岁孩子购买复杂套票", "周边推荐": "T1–T3｜Rain Vortex｜Forest Valley", "行程状态": "待筛选", "计划日期": "待定", "官网/订票": "https://www.jewelchangiairport.com/", "详细地址": "78 Airport Boulevard, Singapore 819666", "经纬度（规划）": "1.3602,103.9897", "2026-10动态事项": null, "核实状态": "已核实", "最新状态": "确定", "最新计划日期": "10/3", "lat": 1.3602, "lng": 103.9897}, {"ID": "24", "景点中文名": "新加坡儿童博物馆", "英文名": "Children’s Museum Singapore", "主类型": "人文博物", "所属区域": "中区 Central Region", "片区（中/英）": "市政区 / Civic District", "辅助标签": "室内｜低龄亲子｜本地文化", "核心看点 / Components": "互动展｜Play Pot 0–4岁专区｜角色扮演", "交通（公共交通+打车）": "City Hall / Clarke Quay / Bras Basah MRT均步行约8min；打车", "雅庭假日酒店·公共交通": "约20–25min", "雅庭假日酒店·打车": "约10min", "乌节中心假日酒店·公共交通": "约15–20min", "乌节中心假日酒店·打车": "约8–10min", "建议游玩时长": "1h45m固定场次", "2岁儿童友好度": "★★★", "综合推荐": "★★★★", "一句话推荐理由": "专门为儿童缩放设计，并有0–4岁专区，是候选池里年龄匹配最精准的室内亲子场所之一。", "门票/儿童政策": "游客成人 S$15；儿童 S$10", "开放时间": "周二–周日；09:00/11:00/14:00/16:00四场，每场1h45m；周一闭馆", "最佳时段": "上午场 / 午后炎热时", "室内/室外": "室内", "雨天适合": "✅", "婴儿车友好": "⚠️", "注意事项": "必须提前预约；迟到>10min门票可能失效；婴儿车不能入展厅；10/5周一闭馆", "周边推荐": "Fort Canning Park｜National Museum｜National Gallery｜Funan", "行程状态": "待筛选", "计划日期": "待定", "官网/订票": "https://www.heritage.sg/childrensmuseum", "详细地址": "23-B Coleman Street, Singapore 179807", "经纬度（规划）": "1.2924,103.8492", "2026-10动态事项": "10/5周一闭馆；预约票提前30天释放", "核实状态": "已核实", "最新状态": "取消", "最新计划日期": "", "lat": 1.2924, "lng": 103.8492}, {"ID": "25", "景点中文名": "新加坡河游船", "英文名": "Singapore River Cruise", "主类型": "游乐体验", "所属区域": "中区 Central Region", "片区（中/英）": "新加坡河 / Singapore River", "辅助标签": "轻体力｜游船｜城市景观", "核心看点 / Components": "Clarke Quay｜Boat Quay｜滨海湾｜传统bumboat", "交通（公共交通+打车）": "Clarke Quay MRT→Clarke Quay Jetty；打车", "雅庭假日酒店·公共交通": "约10–15min", "雅庭假日酒店·打车": "约5–10min", "乌节中心假日酒店·公共交通": "约15–20min", "乌节中心假日酒店·打车": "约10min", "建议游玩时长": "40–60min", "2岁儿童友好度": "★★", "综合推荐": "★★★★", "一句话推荐理由": "几乎不消耗体力，用一趟游船串起新加坡河老码头与滨海湾，非常适合三代同行。", "门票/儿童政策": "成人约S$28；3–11岁约S$18；2岁及以下通常免费", "开放时间": "班次随日变化，约40min一程；建议当天官网复核", "最佳时段": "傍晚", "室内/室外": "半开放", "雨天适合": "⚠️", "婴儿车友好": "⚠️", "注意事项": "上下船有高差，推车通常需折叠；雷雨可能调整航次", "周边推荐": "Clarke Quay｜Boat Quay｜ACM｜Merlion", "行程状态": "待筛选", "计划日期": "待定", "官网/订票": "https://rivercruise.com.sg/", "详细地址": "Clarke Quay Jetty, Singapore", "经纬度（规划）": "1.2897,103.8464", "2026-10动态事项": "F1周前新加坡河与滨海湾人流会增加", "核实状态": "易变化", "最新状态": "可选", "最新计划日期": "10/6", "lat": 1.2897, "lng": 103.8464}, {"ID": "26", "景点中文名": "福康宁公园", "英文名": "Fort Canning Park", "主类型": "自然生态", "所属区域": "中区 Central Region", "片区（中/英）": "福康宁 / Fort Canning", "辅助标签": "免费｜历史｜儿童游乐｜自然", "核心看点 / Components": "Spice Garden｜历史遗迹｜Jubilee Park", "交通（公共交通+打车）": "Fort Canning / Dhoby Ghaut MRT，按入口选择；打车", "雅庭假日酒店·公共交通": "约10–20min", "雅庭假日酒店·打车": "约5–10min", "乌节中心假日酒店·公共交通": "约10–15min", "乌节中心假日酒店·打车": "约5–10min", "建议游玩时长": "1.5–2.5h", "2岁儿童友好度": "★★★", "综合推荐": "★★★★", "一句话推荐理由": "成人能看历史和香料园，孩子有Jubilee Park放电，是市中心兼顾三代人的免费公园。", "门票/儿童政策": "免费", "开放时间": "公园24小时；内部设施各有时间", "最佳时段": "上午 / 16:00后", "室内/室外": "室外为主", "雨天适合": "⚠️", "婴儿车友好": "⚠️", "注意事项": "有坡道和台阶，不追求走完整园；建议锁定Jubilee Park+一两个历史点", "周边推荐": "Children’s Museum｜National Museum｜Clarke Quay", "行程状态": "待筛选", "计划日期": "待定", "官网/订票": "https://www.nparks.gov.sg/visit/parks/park-detail/fort-canning-park", "详细地址": "River Valley Road / Canning Rise, Singapore", "经纬度（规划）": "1.2955,103.8458", "2026-10动态事项": null, "核实状态": "已核实", "最新状态": "可选", "最新计划日期": "10/4 / 10/6备选", "lat": 1.2955, "lng": 103.8458}, {"ID": "27", "景点中文名": "东海岸公园", "英文名": "East Coast Park", "主类型": "自然生态", "所属区域": "东区 East Region", "片区（中/英）": "东海岸 / East Coast", "辅助标签": "海滨｜亲子｜免费｜本地生活", "核心看点 / Components": "Marine Cove｜Coastal PlayGrove｜草地｜海边餐饮", "交通（公共交通+打车）": "公共交通需MRT+公交；5人家庭打车更适合，建议直达Marine Cove", "雅庭假日酒店·公共交通": "约45–60min", "雅庭假日酒店·打车": "约20–25min", "乌节中心假日酒店·公共交通": "约40–55min", "乌节中心假日酒店·打车": "约20–25min", "建议游玩时长": "2–4h", "2岁儿童友好度": "★★★", "综合推荐": "★★★★", "一句话推荐理由": "海滨、草地、儿童游乐场和餐饮集中，更像体验新加坡本地家庭周末生活。", "门票/儿童政策": "免费；个别活动另收费", "开放时间": "公园24小时", "最佳时段": "上午 / 16:00后", "室内/室外": "室外", "雨天适合": "❌", "婴儿车友好": "✅", "注意事项": "园区很长，务必锁定Marine Cove；Coastal PlayGrove部分Nature Playgarden维护中", "周边推荐": "Marine Cove｜Coastal PlayGrove｜东海岸餐饮", "行程状态": "待筛选", "计划日期": "待定", "官网/订票": "https://www.nparks.gov.sg/visit/parks/park-detail/east-coast-park", "详细地址": "East Coast Park, Singapore", "经纬度（规划）": "1.3008,103.9125", "2026-10动态事项": "至10/31部分Nature Playgarden关闭；C1多处步道/草坪维修；Marine Cove更适合2岁", "核实状态": "已核实", "最新状态": "不安排", "最新计划日期": "", "lat": 1.3008, "lng": 103.9125}, {"ID": "28", "景点中文名": "滨海堤坝", "英文名": "Marina Barrage", "主类型": "城市地标", "所属区域": "中区 Central Region", "片区（中/英）": "滨海南 / Marina South", "辅助标签": "免费｜草坪｜城市景观｜儿童放电", "核心看点 / Components": "Green Roof｜大草坪｜可持续展厅｜水玩区", "交通（公共交通+打车）": "Bus 400 / Gardens by the Bay一带转乘；打车最方便", "雅庭假日酒店·公共交通": "约35–45min", "雅庭假日酒店·打车": "约15–20min", "乌节中心假日酒店·公共交通": "约30–40min", "乌节中心假日酒店·打车": "约15–20min", "建议游玩时长": "1–2h", "2岁儿童友好度": "★★", "综合推荐": "★★★", "一句话推荐理由": "大片草坪和城市天际线很轻松，但本次旅行期间水玩区关闭，亲子吸引力明显下降。", "门票/儿童政策": "免费", "开放时间": "公共区域/Green Roof 24h；Sustainable Singapore Gallery 09:00–18:00（12–13暂停、周二关闭）", "最佳时段": "16:00后 / 傍晚", "室内/室外": "室外为主", "雨天适合": "⚠️", "婴儿车友好": "✅", "注意事项": "水玩区遇雷雨会关；Green Roof禁球类；本次旅行水玩区年度维护关闭", "周边推荐": "Gardens by the Bay｜Marina South", "行程状态": "待筛选", "计划日期": "待定", "官网/订票": "https://www.pub.gov.sg/Public/Places-of-Interest/Marina-Barrage/Visitors-Information", "详细地址": "8 Marina Gardens Drive, Singapore 018951", "经纬度（规划）": "1.2807,103.8700", "2026-10动态事项": "Water Playground 2026/9/15–10/15年度维护关闭；另有F1水域设施施工至10月中旬", "核实状态": "已核实", "最新状态": "不安排", "最新计划日期": "", "lat": 1.2807, "lng": 103.87}, {"ID": "29", "景点中文名": "亚洲文明博物馆", "英文名": "Asian Civilisations Museum", "主类型": "人文博物", "所属区域": "中区 Central Region", "片区（中/英）": "新加坡河 / Singapore River", "辅助标签": "室内｜亚洲文化｜儿童互动", "核心看点 / Components": "亚洲贸易与宗教艺术｜ACM & Me", "交通（公共交通+打车）": "Raffles Place MRT Exit H步行约5min；打车", "雅庭假日酒店·公共交通": "约15–20min", "雅庭假日酒店·打车": "约10min", "乌节中心假日酒店·公共交通": "约15–20min", "乌节中心假日酒店·打车": "约10min", "建议游玩时长": "1.5–2h", "2岁儿童友好度": "★★", "综合推荐": "★★★", "一句话推荐理由": "用亚洲贸易和文化联系解释新加坡所处的位置，成人文化价值高，儿童可利用ACM & Me互动空间。", "门票/儿童政策": "游客成人约S$25；60岁以上约S$20；6岁及以下免费（以购票页为准）", "开放时间": "每日10:00–19:00；周五延长至21:00", "最佳时段": "午后", "室内/室外": "室内", "雨天适合": "✅", "婴儿车友好": "✅", "注意事项": "ACM & Me周末可能需预约时段；软垫区需袜子/防滑袜", "周边推荐": "Singapore River｜National Gallery｜Boat Quay｜Merlion", "行程状态": "待筛选", "计划日期": "待定", "官网/订票": "https://www.nhb.gov.sg/acm/", "详细地址": "1 Empress Place, Singapore 179555", "经纬度（规划）": "1.2875,103.8514", "2026-10动态事项": "F1周前周边人流/交通上升", "核实状态": "易变化", "最新状态": "机动", "最新计划日期": "10/6", "lat": 1.2875, "lng": 103.8514}, {"ID": "30", "景点中文名": "国家胡姬花园", "英文名": "National Orchid Garden", "主类型": "自然生态", "所属区域": "中区 Central Region", "片区（中/英）": "植物园 / Botanic Gardens", "辅助标签": "兰花｜园艺｜付费升级", "核心看点 / Components": "VIP Orchid Garden｜Tropical Montane Orchidetum｜兰花收藏", "交通（公共交通+打车）": "Napier MRT后步行；打车建议Tyersall Entrance", "雅庭假日酒店·公共交通": "约30–35min", "雅庭假日酒店·打车": "约15–20min", "乌节中心假日酒店·公共交通": "约20–25min", "乌节中心假日酒店·打车": "约10–15min", "建议游玩时长": "1–1.5h", "2岁儿童友好度": "★★", "综合推荐": "★★★★", "一句话推荐理由": "用约1小时集中看新加坡最具代表性的兰花收藏，是植物园游览中最值得考虑的付费升级。", "门票/儿童政策": "标准成人 S$15；60岁以上 S$3；12岁以下免费", "开放时间": "每日08:30–19:00，18:00最后售票/入场", "最佳时段": "上午", "室内/室外": "室外+少量温室", "雨天适合": "⚠️", "婴儿车友好": "✅", "注意事项": "尽量避开正午；Tyersall入口/下车点更方便", "周边推荐": "Singapore Botanic Gardens｜Ginger Garden｜Dempsey", "行程状态": "待筛选", "计划日期": "待定", "官网/订票": "https://sbg.nparks.gov.sg/attractions/national-orchid-garden/", "详细地址": "1 Cluny Road, Singapore 259569", "经纬度（规划）": "1.3151,103.8162", "2026-10动态事项": null, "核实状态": "已核实", "最新状态": "不安排", "最新计划日期": "", "lat": 1.3151, "lng": 103.8162}, {"ID": "31", "景点中文名": "虎豹别墅", "英文名": "Haw Par Villa", "主类型": "人文博物", "所属区域": "中区 Central Region", "片区（中/英）": "巴西班让 / Pasir Panjang", "辅助标签": "独特文化｜雕塑｜民间神话", "核心看点 / Components": "民间神话雕塑｜Tiger Balm历史｜Hell’s Museum", "交通（公共交通+打车）": "Haw Par Villa MRT CC25出站约1min；打车", "雅庭假日酒店·公共交通": "约25–35min", "雅庭假日酒店·打车": "约15–20min", "乌节中心假日酒店·公共交通": "约30–40min", "乌节中心假日酒店·打车": "约20min", "建议游玩时长": "1–2h", "2岁儿童友好度": "★", "综合推荐": "★★", "一句话推荐理由": "题材非常独特，但当前公园仍部分关闭，且Hell’s Museum主题不适合以2岁孩子为目标体验。", "门票/儿童政策": "公园免费；Hell’s Museum成人S$20、7–12岁S$10", "开放时间": "公园每日09:00–20:00，19:30最后入园；Hell’s Museum 10:00–18:00，17:00最后入场", "最佳时段": "上午", "室内/室外": "室外为主", "雨天适合": "⚠️", "婴儿车友好": "⚠️", "注意事项": "自2025/12/8起必要维修，公园部分关闭至另行通知；Hell’s Museum仍开放", "周边推荐": "Pasir Panjang一带", "行程状态": "待筛选", "计划日期": "待定", "官网/订票": "https://www.hawparvilla.sg/", "详细地址": "262 Pasir Panjang Road, Singapore 118628", "经纬度（规划）": "1.2836,103.7817", "2026-10动态事项": "部分关闭仍持续，出发前必须复核", "核实状态": "易变化", "最新状态": "不安排", "最新计划日期": "", "lat": 1.2836, "lng": 103.7817}];
+const itinerary=[{"date": "10/3 周六", "theme": "抵达 · Jewel · 适应", "hotel": "Holiday Inn Singapore Atrium", "intensity": "★", "blocks": [["抵达后", "抵达樟宜机场 → 入境/取行李", "机场内部前往 Jewel", "不设刚性时间；先照顾父母和宝宝状态"], ["下午", "Jewel Changi Airport：Rain Vortex / Forest Valley / 午餐", "机场内部步行；Jewel→酒店：打车25–35min｜公共交通60–70min", "停留1.5–2.5h即可，不为灯光秀拖延入住"], ["傍晚", "入住雅庭假日酒店，整理休息", "—", "第一天以恢复为主"], ["晚上", "Chinatown 可选：短逛＋晚饭", "打车5–10min｜MRT约15–20min", "状态好才去，控制1–1.5h；累就直接取消"]]}, {"date": "10/4 周日", "theme": "植物园 · National Gallery · Marina Bay夜景", "hotel": "Holiday Inn Singapore Atrium", "intensity": "★★★", "blocks": [["08:30–11:30", "Singapore Botanic Gardens（Jacob Ballas优先）", "打车15–20min｜MRT约30–40min", "不去National Orchid Garden；不追求走完整园"], ["12:00–15:15", "午餐＋回酒店休息；女儿13:30–15:00午睡", "回酒店建议打车", "午睡是当天固定锚点"], ["16:00起", "National Gallery：Keppel Centre＋When Art Meets Nature", "打车约10min｜MRT至City Hall后步行", "Children’s Museum取消后的正式家庭项目"], ["傍晚", "Fort Canning短逛（可选）", "步行/短途交通", "累或天热则直接取消"], ["晚上", "Marina Bay夜景首选：Merlion / Fullerton / Waterfront / MBS", "以步行为主；结束后MRT/打车回酒店", "若持续下雨，完整夜景顺延10/6；Singapore Flyer仅天气好且有体力时临时决定"]]}, {"date": "10/5 周一", "theme": "Mandai · Zoo核心日", "hotel": "Holiday Inn Singapore Atrium", "intensity": "★★★★", "blocks": [["07:45–08:30", "酒店 → Mandai", "打车25–35min｜公共交通55–70min", "建议打车，节省体力并赶08:30开园"], ["08:30–12:30", "Singapore Zoo", "园内tram＋步行", "当天唯一必选；不追求全园完成率"], ["12:30–14:00", "午餐＋推车午睡/休息", "园区内", "如果已经明显疲劳，下午可直接结束Mandai"], ["14:00–17:00", "River Wonders（可选）", "Zoo→River Wonders步行5–10min", "状态好再去；Amazon River Quest因身高限制跳过"], ["17:00–18:45", "晚餐＋休息＋决策", "园区内", "判断是否继续Night Safari"], ["19:00以后", "Night Safari（可选）", "步行入园；回酒店建议打车25–35min", "只做tram＋少量步道；累则取消"]]}, {"date": "10/6 周二", "theme": "KidsSTOP · ACM机动 · 城市夜生活", "hotel": "Holiday Inn Singapore Atrium", "intensity": "★★★", "blocks": [["09:00左右", "酒店 → Jurong", "打车20–30min｜公共交通40–50min", "默认主方案仍为上午KidsSTOP"], ["10:00–13:00", "KidsSTOP", "—", "婴儿车不能进入；若改用备选方案，可把KidsSTOP换到下午场"], ["13:00–15:00", "午餐＋女儿午睡", "回酒店建议打车", "成人不强求安排项目"], ["下午", "ACM 高优先机动：Crosscurrents＋ACM & Me", "打车/MRT至Raffles Place一带", "可与10/7 National Museum互换；累可取消"], ["晚上", "River Cruise / Little India / Kampong Gelam 三选一", "按实际选择MRT/短途打车", "如果10/4夜景因天气失败，优先改为Marina Bay夜景备用日"]]}, {"date": "10/7 周三", "theme": "河畔散步 · 换酒店 · Gardens by the Bay", "hotel": "Holiday Inn Singapore Orchard City Centre", "intensity": "★★★", "blocks": [["08:30–09:45", "Robertson Quay / Singapore River轻松散步", "步行", "随时可回酒店；备选为提前换酒店后逛Emerald Hill / Istana Park"], ["10:00–11:30", "退房 → 换到乌节中心假日酒店", "打车10–15min｜公共交通25–30min", "有行李，优先打车"], ["11:30–15:00", "午餐＋入住/寄存＋午睡", "乌节附近", "泳池装修关闭，不安排酒店游泳"], ["13:30–15:00", "National Museum 低压力机动", "打车5–10min｜公共交通15–20min", "有精力才去；可与ACM互换或直接取消"], ["15:15以后", "Gardens by the Bay：Cloud Forest → Flower Dome → Supertree Grove", "F1管制期间优先MRT；Bayfront/Gardens by the Bay站进入", "不再承担完整Marina Bay夜景"], ["19:45", "Garden Rhapsody → MRT回酒店", "优先MRT", "看第一场；避免F1道路管制下继续跨区走夜景"]]}, {"date": "10/8 周四", "theme": "Sentosa慢节奏日", "hotel": "Holiday Inn Singapore Orchard City Centre", "intensity": "★★★", "blocks": [["上午", "睡晚一点＋慢早餐，10:00–10:30后出发", "去HarbourFront：MRT或打车", "不用早起"], ["11:00左右", "Singapore Cable Car进入Sentosa", "HarbourFront Tower 2乘缆车", "把交通本身当体验，不追求刷完整线路"], ["12:00左右", "午餐", "RWS / WEAVE", "优先新加坡/东南亚/中式，先吃再进Oceanarium"], ["13:00–16:30", "Singapore Oceanarium", "岛内步行 / Sentosa Express", "当天核心；女儿可推车午睡"], ["16:30–18:30", "海滩 / Sentosa自由活动（可选）", "岛内交通＋步行", "天气差或累则转室内休息"], ["19:40", "Wings of Time（可选）", "Beach Station附近", "怕巨响/犯困直接取消；回乌节建议打车20–25min"]]}, {"date": "10/9 周五", "theme": "离境 · Jewel补逛", "hotel": "—", "intensity": "★", "blocks": [["上午", "早餐＋退房 → 樟宜机场", "打车25–35min｜公共交通55–70min", "F1首日，多留20–30min陆路缓冲"], ["白天", "Jewel补逛 / 午餐 / 购物", "机场内部", "若10/3已完整逛过，则只轻松停留"], ["航班前", "值机 → 安检 → 候机 → 返沪", "—", "不再安排市区景点"]]}];
+const colors={"确定": "#2b6cff", "可选": "#f59e0b", "机动": "#8b5cf6", "取消": "#ef4444", "不安排": "#9ca3af"};
+const map=L.map('map',{zoomControl:true}).setView([1.338,103.833],11.5);
+L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png',{attribution:'&copy; OpenStreetMap contributors'}).addTo(map);
+const markerById={};
+function iconFor(st){const c=colors[st]||'#64748b';return L.divIcon({className:'',html:`<div style="width:20px;height:20px;border:3px solid white;border-radius:50%;background:${c};box-shadow:0 2px 8px rgba(0,0,0,.28)"></div>`,iconSize:[20,20],iconAnchor:[10,10]})}
+function popupHTML(a){return `<div class="popup"><h4>${a['景点中文名']} <span style="font-weight:400;color:#8a90a0">${a['英文名']}</span></h4><div class="line"><b>${a['最新状态']}</b> · ${a['最新计划日期']||'未排'} · ${a['建议游玩时长']}</div><div class="line">2岁友好 ${a['2岁儿童友好度']} · 推荐 ${a['综合推荐']}</div><div class="line">${a['交通（公共交通+打车）']||''}</div><div class="reason">${a['一句话推荐理由']||''}</div></div>`}
+for(const a of attractions){if(a.lat&&a.lng){const m=L.marker([a.lat,a.lng],{icon:iconFor(a['最新状态'])}).addTo(map).bindPopup(popupHTML(a));markerById[a.ID]=m;}}
+let currentFilter='行程';
+function isInPlan(st){return ['确定','可选','机动'].includes(st)}
+function renderList(){const q=document.getElementById('search').value.trim().toLowerCase();const list=document.getElementById('list');list.innerHTML='';for(const a of attractions){let ok=currentFilter==='全部'||(currentFilter==='行程'&&isInPlan(a['最新状态']))||a['最新状态']===currentFilter;const hay=[a['景点中文名'],a['英文名'],a['片区（中/英）'],a['主类型']].join(' ').toLowerCase();if(!ok||!hay.includes(q))continue;const div=document.createElement('div');div.className='poi';const cls=a['最新状态']==='确定'?'p-blue':a['最新状态']==='可选'?'p-amber':a['最新状态']==='机动'?'p-purple':a['最新状态']==='取消'?'p-red':'p-gray';div.innerHTML=`<div class="poi-top"><span class="dot" style="background:${colors[a['最新状态']]}"></span><div><div class="poi-name">${a.ID} · ${a['景点中文名']}</div><div class="poi-en">${a['英文名']}</div></div></div><div class="poi-meta"><span class="pill ${cls}">${a['最新状态']}</span>${a['最新计划日期']?'<span class="tag">'+a['最新计划日期']+'</span>':''}<span class="tag">${a['建议游玩时长']}</span><span class="tag">亲子 ${a['2岁儿童友好度']}</span></div>`;div.onclick=()=>{const m=markerById[a.ID];if(m){map.setView([a.lat,a.lng],14);m.openPopup();}};list.appendChild(div);}}
+document.querySelectorAll('.filter').forEach(b=>b.onclick=()=>{document.querySelectorAll('.filter').forEach(x=>x.classList.remove('active'));b.classList.add('active');currentFilter=b.dataset.filter;renderList();});document.getElementById('search').addEventListener('input',renderList);renderList();
+const tabs=document.getElementById('day-tabs'), panes=document.getElementById('day-panes');itinerary.forEach((d,i)=>{const t=document.createElement('div');t.className='tab'+(i===0?' active':'');t.textContent=d.date;t.onclick=()=>{document.querySelectorAll('#day-tabs .tab').forEach(x=>x.classList.remove('active'));document.querySelectorAll('.day').forEach(x=>x.classList.remove('active'));t.classList.add('active');document.getElementById('day'+i).classList.add('active')};tabs.appendChild(t);const p=document.createElement('div');p.id='day'+i;p.className='day card'+(i===0?' active':'');p.style.padding='14px';p.innerHTML=`<div class="day-head"><div><div class="day-title">${d.date} · ${d.theme}</div><div class="day-meta">住宿：${d.hotel}</div></div><div class="intensity">强度 ${d.intensity}</div></div><div class="table-wrap"><table><thead><tr><th>时段</th><th>安排</th><th>交通</th><th>执行提示</th></tr></thead><tbody>${d.blocks.map(r=>'<tr>'+r.map(c=>'<td>'+c+'</td>').join('')+'</tr>').join('')}</tbody></table></div>`;panes.appendChild(p);});
+</script></body></html>
